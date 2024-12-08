@@ -8,9 +8,13 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      screens: {
+        xs: "319px", // Extra small devices
+        sm: "425px", // Small devices
+        md: "768px", // Tablets
+        lg: "1024px", // Laptops
+        xl: "1280px", // Large laptops/desktops
+        "2xl": "1536px", // Extra-large screens
       },
     },
   },
